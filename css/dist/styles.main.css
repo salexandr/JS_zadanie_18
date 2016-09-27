@@ -1,0 +1,197 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+ background-color: #ffe485;
+}
+
+.timer{
+	width: 325px;
+  margin: 200px auto;
+  padding: 5px;
+   background-color: rgba(0,0,0,0.5);
+   border-radius: 10px;
+   border: 1px solid black;
+}
+
+.start_pause {
+	margin-left: 2px;
+	width: 100px;
+  border: 2px solid white;
+   background-color: rgba(0,0,0,.1);
+  padding: 2px 20px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: 1px 2px 2px 2px #535250;
+  -moz-box-shadow: 1px 2px 2px 2px #535250;
+  box-shadow: 1px 2px 2px 2px #535250;
+  text-shadow: #7ea4bd 0 1px 0;
+    color: #fff;
+  font-size: 24px;
+  font-family: helvetica, serif;
+  text-decoration: none;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+.start_pause:hover {
+  border: 2px solid white;
+  text-shadow: #3b444a 0 1px 0;
+  background-color: rgba(0,0,0,.3);
+  color: #fff;
+
+}
+
+.start_pause:active {
+box-shadow: 0px 0px 0px 0px black;
+}
+
+.clear {
+  margin-left: 2px;
+  border: 2px solid white;
+   background-color: rgba(0,0,0,.1);
+  padding: 2px 20px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: 1px 2px 2px 2px #535250;
+  -moz-box-shadow: 1px 2px 2px 2px #535250;
+  box-shadow: 1px 2px 2px 2px #535250;
+  text-shadow: #7ea4bd 0 1px 0;
+    color: #fff;
+  font-size: 24px;
+  font-family: helvetica, serif;
+  text-decoration: none;
+  vertical-align: middle;
+}
+.clear:hover {
+  border: 2px solid white;
+  text-shadow: #3b444a 0 1px 0;
+  background-color: rgba(0,0,0,.3);
+  color: #fff;
+}
+
+.clear:active {
+box-shadow: 0px 0px 0px 0px black;
+}
+
+.tablo{
+	  margin: 0 auto;
+	display: block;
+  margin-left: 40px;
+  font-size: 38px;
+  padding-bottom: 10px;
+  color: #f0f0f0;
+  font-weight: bold;
+    text-shadow: #3b444a 2px 2px 2px;
+}
+
+.split_rez {
+	  margin: 0 auto;
+	display: block;
+  margin-left: 10px;
+  font-size: 30px;
+    padding-top: 10px;
+	  color: #e0e0e0;
+	      text-shadow: #3b444a 1px 1px 1px;
+}
+
+.central_button {
+	margin-left: -100px;
+	width: 200px;
+		position: absolute;
+		left: 50%;
+		top: 30px;
+  border: 2px solid white;
+   background-color: rgba(0,0,0,.1);
+  padding: 2px 20px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: 1px 2px 2px 2px #535250;
+  -moz-box-shadow: 1px 2px 2px 2px #535250;
+  box-shadow: 1px 2px 2px 2px #535250;
+  text-shadow: #7ea4bd 0 1px 0;
+    color: #fff;
+  font-size: 24px;
+  font-family: helvetica, serif;
+  text-decoration: none;
+  vertical-align: middle;
+  box-sizing: border-box;	
+}
+#str2 {
+	display: none;
+  margin: 200px 400px;
+}
+
+.main_title {
+	margin: 0 0 30px 100px;
+	font-size: 24px;
+}
+
+.point_title {
+	margin: 10px 0 20px 50px;
+	font-size: 20px;
+}
+
+.point {
+	margin-left: 70px;	
+}
+
+.point li{
+	margin-bottom: 10px;	
+	font-size: 18px;
+}
+
+.submit_class {
+	margin: 20px 0 0 70px;	
+    background-color: #fdf8e9;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+	border-radius: 10px;
+    color: black;
+    height: 54px;
+    padding: 2px;
+    width: 345px;
+}
